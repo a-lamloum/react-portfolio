@@ -1,0 +1,92 @@
+header {
+  height: 100vh;
+  padding-top: 5.5rem;
+  overflow: hidden;
+}
+
+/* -------------------
+header container 
+------------------- */
+.header__container {
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+
+.header__container-subTitle {
+  font-size: 1rem;
+}
+/* -------------------
+header Call to Action 
+------------------- */
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* -------------------
+header socials
+------------------- */
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  position: absolute;
+  bottom: 6rem;
+}
+.header__socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background-color: var(--color-primary);
+}
+
+/* -------------------
+header image
+------------------- */
+
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 25rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11.5rem);
+  margin-top: 4rem;
+  overflow: hidden;
+  padding: 3rem 1.5rem 1.5rem;
+  border-radius: 12rem 12rem 0 0;
+}
+
+/* -------------------
+Scroll Down
+------------------- */
+
+.scroll__down {
+  position: absolute;
+  transform: rotate(90deg);
+  right: -2.3rem;
+  bottom: 8rem;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+
+/* -------------------  Media Devices [ Medium Devices ] ------------------- */
+
+@media screen and (max-width: 1024px) {
+  .header {
+      height: 68vh;
+  }
+}
+
+/* -------------------  Media Devices [ Small Devices ] ------------------- */
+
+@media screen and (max-width: 600px) {
+  .header__socials,
+  .scroll__down {
+    display: none;
+}
+}
