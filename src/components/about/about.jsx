@@ -35,7 +35,7 @@ const About = () => {
               </article>
             </div>
             <p>
-            After success with WordPress front-end development using Elementor, I am eager to continue my career by joining a company with a unique perspective, hard work and interactive team where I will continue expanding my Front-End knowledge into perfecting accessibility and responsive design.             </p>
+            After success with WordPress front-end page building using Elementor, I am eager to continue my career by joining a company with a unique perspective, hard work and interactive team where I will continue expanding my Front-End knowledge into perfecting accessibility and responsive design.             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           </div>
