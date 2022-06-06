@@ -31,7 +31,15 @@
     gap: 1rem;
 }
 
-
+.portfolio__item span {
+    color: var(--color-light);
+    margin: 0 0 1rem;
+    display: inline-block;
+    padding: 0.2rem 0.4rem;
+    background-color: #295a81;
+    border-radius: 0.3rem;
+    font-size: .7rem;
+}
 /* -------------------  Media Devices [ Medium Devices ] ------------------- */
 
 @media screen and (max-width: 1024px) {

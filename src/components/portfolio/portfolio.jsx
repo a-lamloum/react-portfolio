@@ -12,10 +12,11 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
       {
-        data.map(({id, title, image, github, demo}) => {
+        data.map(({id, title, image, github, demo, tech}) => {
           return <article key={id} className='portfolio__item'>
             <img src={image} className='item__img'></img>
             <h3>{title}</h3>
+            <span>{tech}</span>
             <div className='portfolio__item-cta'>
               <a href={github} className='' target="_blank"><BsGithub/> Github</a>
               <a href={demo} className='' target="_blank" ><TbExternalLink/> Live</a>
