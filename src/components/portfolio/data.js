@@ -7,6 +7,7 @@ import IMG6 from "../../assets/nft-card.jpg"
 import IMG7 from "../../assets/qr-code-card.jpg"
 import IMG8 from "../../assets/react-portfolio.jpg"
 import IMG9 from "../../assets/order-summary-card.jpg"
+import IMG10 from "../../assets/star-rating-card.jpg"
 
 
 const data = [
@@ -82,6 +83,14 @@ const data = [
         github: "https://github.com/a-lamloum/-Order-Summary-Card",
         demo: "https://a-lamloum.github.io/-Order-Summary-Card/",
         tech: "HTML CSS"
+    },
+    {
+        id: 10,
+        title: "Star Rating Card",
+        image: IMG10, 
+        github: "https://github.com/a-lamloum/star-rating-sys",
+        demo: "https://a-lamloum.github.io/star-rating-sys/",
+        tech: "HTML CSS JS"
     },
   ]
 
