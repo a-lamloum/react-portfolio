@@ -6,6 +6,7 @@ import IMG5 from "../../assets/karamella.jpg"
 import IMG6 from "../../assets/nft-card.jpg"
 import IMG7 from "../../assets/qr-code-card.jpg"
 import IMG8 from "../../assets/react-portfolio.jpg"
+import IMG9 from "../../assets/order-summary-card.jpg"
 
 
 const data = [
@@ -72,6 +73,14 @@ const data = [
         image: IMG7, 
         github: "https://github.com/a-lamloum/qr-code-component-main",
         demo: "https://a-lamloum.github.io/qr-code-component-main/",
+        tech: "HTML CSS"
+    },
+    {
+        id: 9,
+        title: "Frontend Mentor - Order Summary Card",
+        image: IMG9, 
+        github: "https://github.com/a-lamloum/-Order-Summary-Card",
+        demo: "https://a-lamloum.github.io/-Order-Summary-Card/",
         tech: "HTML CSS"
     },
   ]
