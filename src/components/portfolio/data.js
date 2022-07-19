@@ -12,7 +12,7 @@ import IMG10 from "../../assets/star-rating-card.jpg"
 
 const data = [
     {
-        id: 8,
+        id: 1,
         title: "React Portfolio",
         image: IMG8, 
         github: "https://github.com/a-lamloum/react-portfolio/",
@@ -20,7 +20,7 @@ const data = [
         tech: "Reactjs OpenWeather-api"
     },
     {
-        id: 1,
+        id: 2,
         title: "ezlearn - ezaby scientific website",
         image: IMG1, 
         github: "#",
@@ -29,7 +29,7 @@ const data = [
     },
     {
         
-        id: 2,
+        id: 3,
         title: "EgyptScholars - Library",
         image: IMG2, 
         github: "#",
@@ -37,7 +37,7 @@ const data = [
         tech: "WordPress"
     },
     {
-        id: 5,
+        id: 4,
         title: "Karamella Portraites",
         image: IMG5, 
         github: "https://github.com/a-lamloum/Karamella-Portraites",
@@ -45,7 +45,7 @@ const data = [
         tech: "HTML CSS JS"
     },
     {
-        id: 3,
+        id: 5,
         title: "tindogs",
         image: IMG3, 
         github: "https://github.com/a-lamloum/tindogs",
@@ -53,7 +53,7 @@ const data = [
         tech: "HTML CSS"
     },
     {
-        id: 4,
+        id: 6,
         title: "Dice Game",
         image: IMG4, 
         github: "https://github.com/a-lamloum/dice_game_js",
@@ -61,7 +61,7 @@ const data = [
         tech: "HTML CSS JS"
     },
     {
-        id: 5,
+        id: 7,
         title: "Frontend Mentor - NFT Card",
         image: IMG6, 
         github: "https://github.com/a-lamloum/nft-preview-card-component-main",
@@ -69,7 +69,7 @@ const data = [
         tech: "HTML CSS"
     },
     {
-        id: 5,
+        id: 8,
         title: "Frontend Mentor - QR Code Card",
         image: IMG7, 
         github: "https://github.com/a-lamloum/qr-code-component-main",

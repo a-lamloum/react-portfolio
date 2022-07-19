@@ -1,14 +1,14 @@
 {
   "main.css": "/react-portfolio/static/css/main.dce0525b.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.870c7ff2.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.870c7ff2.chunk.js.map",
+  "main.js": "/react-portfolio/static/js/main.990c5e6f.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.990c5e6f.chunk.js.map",
   "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
   "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
   "static/css/2.b8010c2f.chunk.css": "/react-portfolio/static/css/2.b8010c2f.chunk.css",
-  "static/js/2.cfda8bb6.chunk.js": "/react-portfolio/static/js/2.cfda8bb6.chunk.js",
-  "static/js/2.cfda8bb6.chunk.js.map": "/react-portfolio/static/js/2.cfda8bb6.chunk.js.map",
+  "static/js/2.1e361873.chunk.js": "/react-portfolio/static/js/2.1e361873.chunk.js",
+  "static/js/2.1e361873.chunk.js.map": "/react-portfolio/static/js/2.1e361873.chunk.js.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.001a9cd7db802ef61842bfb9777088e8.js": "/react-portfolio/precache-manifest.001a9cd7db802ef61842bfb9777088e8.js",
+  "precache-manifest.f3f3b3d11820b1bdaf525a94335d842e.js": "/react-portfolio/precache-manifest.f3f3b3d11820b1bdaf525a94335d842e.js",
   "service-worker.js": "/react-portfolio/service-worker.js",
   "static/css/2.b8010c2f.chunk.css.map": "/react-portfolio/static/css/2.b8010c2f.chunk.css.map",
   "static/css/main.dce0525b.chunk.css.map": "/react-portfolio/static/css/main.dce0525b.chunk.css.map",
@@ -24,5 +24,6 @@
   "static/media/order-summary-card.jpg": "/react-portfolio/static/media/order-summary-card.0278478b.jpg",
   "static/media/qr-code-card.jpg": "/react-portfolio/static/media/qr-code-card.85147a86.jpg",
   "static/media/react-portfolio.jpg": "/react-portfolio/static/media/react-portfolio.5c9d16fa.jpg",
+  "static/media/star-rating-card.jpg": "/react-portfolio/static/media/star-rating-card.3bf17bd7.jpg",
   "static/media/tindog.jpg": "/react-portfolio/static/media/tindog.22783fb8.jpg"
 }
