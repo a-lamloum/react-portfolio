@@ -98,6 +98,8 @@ Scroll Down
   }
   .me {
     left: calc(58% - 11.5rem);
+    width: 20rem;
+    height: 20rem;
   }
   .me img {
     width: 100%;

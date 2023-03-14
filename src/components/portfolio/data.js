@@ -8,11 +8,20 @@ import IMG7 from "../../assets/qr-code-card.jpg"
 import IMG8 from "../../assets/react-portfolio.jpg"
 import IMG9 from "../../assets/order-summary-card.jpg"
 import IMG10 from "../../assets/star-rating-card.jpg"
+import IMG11 from "../../assets/ezabawy.png"
 
 
 const data = [
     {
         id: 1,
+        title: "ezabawy.com",
+        image: IMG11, 
+        github: "https://github.com/a-lamloum/ezabawy",
+        demo: "https://ezabawy.com/",
+        tech: "Bootstrap5 Swiperjs ASP.NET"
+    },
+    {
+        id: 2,
         title: "React Portfolio",
         image: IMG8, 
         github: "https://github.com/a-lamloum/react-portfolio/",
@@ -20,7 +29,7 @@ const data = [
         tech: "Reactjs OpenWeather-api"
     },
     {
-        id: 2,
+        id: 3,
         title: "ezlearn - ezaby scientific website",
         image: IMG1, 
         github: "#",
@@ -29,7 +38,7 @@ const data = [
     },
     {
         
-        id: 3,
+        id: 4,
         title: "EgyptScholars - Library",
         image: IMG2, 
         github: "#",
@@ -37,7 +46,7 @@ const data = [
         tech: "WordPress"
     },
     {
-        id: 4,
+        id: 5,
         title: "Karamella Portraites",
         image: IMG5, 
         github: "https://github.com/a-lamloum/Karamella-Portraites",
@@ -45,7 +54,7 @@ const data = [
         tech: "HTML CSS JS"
     },
     {
-        id: 5,
+        id: 6,
         title: "tindogs",
         image: IMG3, 
         github: "https://github.com/a-lamloum/tindogs",
@@ -53,7 +62,7 @@ const data = [
         tech: "HTML CSS"
     },
     {
-        id: 6,
+        id: 7,
         title: "Dice Game",
         image: IMG4, 
         github: "https://github.com/a-lamloum/dice_game_js",
@@ -61,7 +70,7 @@ const data = [
         tech: "HTML CSS JS"
     },
     {
-        id: 7,
+        id: 8,
         title: "Frontend Mentor - NFT Card",
         image: IMG6, 
         github: "https://github.com/a-lamloum/nft-preview-card-component-main",
@@ -69,7 +78,7 @@ const data = [
         tech: "HTML CSS"
     },
     {
-        id: 8,
+        id: 9,
         title: "Frontend Mentor - QR Code Card",
         image: IMG7, 
         github: "https://github.com/a-lamloum/qr-code-component-main",
@@ -77,7 +86,7 @@ const data = [
         tech: "HTML CSS"
     },
     {
-        id: 9,
+        id: 10,
         title: "Frontend Mentor - Order Summary Card",
         image: IMG9, 
         github: "https://github.com/a-lamloum/-Order-Summary-Card",
@@ -85,7 +94,7 @@ const data = [
         tech: "HTML CSS"
     },
     {
-        id: 10,
+        id: 11,
         title: "Star Rating Card",
         image: IMG10, 
         github: "https://github.com/a-lamloum/star-rating-sys",
