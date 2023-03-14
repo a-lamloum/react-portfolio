@@ -35,12 +35,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            I’m a junior Front-End Developer located in Saarbrücken. I have a
-            serious passion for UI design, imporve study experience online.
-            Well-organised person, problem solver, independent employee with
-            high attention to detail. Fan of outdoor activities, TV series and
-            English literature. A family person and I love my wife, Interested
-            in the entire frontend scope.
+            I’m an experienced junior front-end developer living in Germany (Saarbrücken) with expertise in WordPress and strong skills in front-end development. Passionate about improving online user experience and the entire frontend scope. Highly organized, detail-oriented, and independent problem solver.
           </p>
 
           <a href="#contact" className="btn btn-primary">
