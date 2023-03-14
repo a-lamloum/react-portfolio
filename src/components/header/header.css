@@ -55,7 +55,7 @@ header image
   position: absolute;
   left: calc(50% - 11.5rem);
   margin-top: 4rem;
-  overflow:hidden;
+  overflow: hidden;
   padding: 0;
   border-radius: 12rem ;
 }
