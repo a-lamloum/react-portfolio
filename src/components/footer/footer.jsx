@@ -1,54 +1,80 @@
-import React from "react";
-import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { CgTwitter } from "react-icons/cg";
-import { TiSocialLinkedin } from "react-icons/ti";
+import React from 'react';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
+import './footer.css';
 
 const Footer = () => {
-  return (
-    <footer id="footer">
-      <a href="#" className="footer__logo">
-        AhLaloum
-      </a>
-      {/* <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a> */}
-      <ul className="premalinks">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#experience">experience</a>
-        </li>
-        <li>
-          <a href="#portfolio">portfolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">testimonials</a>
-        </li>
-        <li>
-          <a href="#contact">contact</a>
-        </li>
-      </ul>
+  const currentYear = new Date().getFullYear();
+  
+  const navLinks = [
+    { name: 'Home', href: '#' },
+    { name: 'About', href: '#about' },
+    { name: 'Experience', href: '#experience' },
+    { name: 'Portfolio', href: '#portfolio' },
+    { name: 'Contact', href: '#contact' }
+  ];
 
-      <div className="footer__socilas">
-        <a href="https://www.facebook.com/PhAhmedOmar/" target="_blank">
-          <FaFacebookF />
-        </a>
-        {/* <a href="https://twitter.com" target="_blank">
-          <CgTwitter />
-        </a> */}
-        <a href="https://www.linkedin.com/in/ahmed-lamloum-510b77147/" target="_blank">
-          <TiSocialLinkedin />
-        </a>
+  const socialLinks = [
+    {
+      icon: <FaLinkedinIn />,
+      url: '#',
+      label: 'LinkedIn'
+    },
+    {
+      icon: <FaGithub />,
+      url: 'https://github.com/a-lamloum',
+      label: 'GitHub'
+    },
+    {
+      icon: <SiLeetcode />,
+      url: '#',
+      label: 'LeetCode'
+    }
+  ];
+
+  return (
+    <footer>
+      <div className="footer__container">
+        <div className="footer__content">
+          <div className="footer__logo">
+            <h3>Ahmad Omar</h3>
+            <small>Full Stack Developer</small>
+          </div>
+
+          <nav className="footer__nav">
+            <ul>
+              {navLinks.map((link, index) => (
+                <li key={index}>
+                  <a href={link.href}>{link.name}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <div className="footer__social">
+            {socialLinks.map((social, index) => (
+              <a
+                key={index}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={social.label}
+              >
+                {social.icon}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className="footer__bottom">
+          <div className="footer__copyright">
+            <p>&copy; {currentYear} Ahmad Lamloum</p>
+          </div>
+          <div className="footer__location">
+            <p>Saarbrücken, Germany</p>
+          </div>
+        </div>
       </div>
-      <div className="footer__copyright">
-        <small>&copy; Ahmed Lamloum. All right reserved </small> 
-      </div>
-      
     </footer>
   );
 };

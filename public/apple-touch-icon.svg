@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="180" height="180" fill="#0a1128"/>
+  
+  <!-- Letter A -->
+  <path d="M90 40L120 130H107L100 110H80L73 130H60L90 40ZM90 65L83 95H97L90 65Z" fill="#64ffda"/>
+</svg>

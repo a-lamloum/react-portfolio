@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
@@ -6,76 +6,96 @@ import { BiBookBookmark } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageDetail } from "react-icons/bi";
 import { CgWorkAlt } from "react-icons/cg";
-import { useState } from "react";
-import Axios from "axios";
-
-// const https = require("https");
+import { HiMenuAlt3, HiX } from "react-icons/hi";
+import ThemeToggle from '../ThemeToggle/ThemeToggle';
 
 const Nav = () => {
-  // const url =
-  //   "https://api.openweathermap.org/data/2.5/weather?q=Berlin&limit=5&appid=7e5e7e526a83e05fa4ab10fc01f8db78&units=metric";
-
-  // const weatherdata = https.get(url, function (response) {
-  //   console.log(response.statusCode);
-  //   response.on("data", function (data) {
-  //     const weaterData = JSON.parse(data);
-  //     return weaterData;});
-  const [temp, setTemp] = useState("");
-  Axios.get(
-    "https://api.openweathermap.org/data/2.5/weather?q=saarbrücken&limit=5&appid=7e5e7e526a83e05fa4ab10fc01f8db78&units=metric"
-  ).then(function (response) {
-    setTemp(response.data.main.temp);
-  });
   const [activeClass, setActive] = useState("#");
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <nav>
-      <a
-        href="#"
-        onClick={() => setActive("#")}
-        className={activeClass === "#" ? "active" : null}
-      >
-        <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActive("#about")}
-        className={activeClass === "#about" ? "active" : null}
-      >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActive("#experience")}
-        className={activeClass === "#experience" ? "active" : null}
-      >
-        <BiBookBookmark />
-      </a>
-      <a
-        href="#portfolio"
-        onClick={() => setActive("#portfolio")}
-        className={activeClass === "#portfolio" ? "active" : null}
-      >
-        <CgWorkAlt />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActive("#contact")}
-        className={activeClass === "#contact" ? "active" : null}
-      >
-        <BiMessageDetail />
-      </a>
-      {/* <spam>|</spam> */}
-      <spam
-      className="nav__weatherText"
-        href="https://openweathermap.org/city/2950159"
-      >
-        Saar {temp}℃
-      </spam>
+    <nav className="nav-container">
+      <div className="nav-content">
+        <div className="nav-logo">
+          <a href="#">AL</a>
+        </div>
+
+        <div className={`nav-links ${isMenuOpen ? 'show' : ''}`}>
+          <a
+            href="#"
+            onClick={() => {
+              setActive("#");
+              setIsMenuOpen(false);
+            }}
+            className={activeClass === "#" ? "active" : ""}
+          >
+            <AiOutlineHome /> <span>Home</span>
+          </a>
+          <a
+            href="#about"
+            onClick={() => {
+              setActive("#about");
+              setIsMenuOpen(false);
+            }}
+            className={activeClass === "#about" ? "active" : ""}
+          >
+            <AiOutlineUser /> <span>About</span>
+          </a>
+          <a
+            href="#experience"
+            onClick={() => {
+              setActive("#experience");
+              setIsMenuOpen(false);
+            }}
+            className={activeClass === "#experience" ? "active" : ""}
+          >
+            <BiBookBookmark /> <span>Experience</span>
+          </a>
+          <a
+            href="#portfolio"
+            onClick={() => {
+              setActive("#portfolio");
+              setIsMenuOpen(false);
+            }}
+            className={activeClass === "#portfolio" ? "active" : ""}
+          >
+            <CgWorkAlt /> <span>Portfolio</span>
+          </a>
+          <a
+            href="#services"
+            onClick={() => {
+              setActive("#services");
+              setIsMenuOpen(false);
+            }}
+            className={activeClass === "#services" ? "active" : ""}
+          >
+            <RiServiceLine /> <span>Services</span>
+          </a>
+          <a
+            href="#contact"
+            onClick={() => {
+              setActive("#contact");
+              setIsMenuOpen(false);
+            }}
+            className={activeClass === "#contact" ? "active" : ""}
+          >
+            <BiMessageDetail /> <span>Contact</span>
+          </a>
+        </div>
+
+        <div className="nav-controls">
+          <ThemeToggle />
+          <div className="nav-toggle" onClick={toggleMenu}>
+            {isMenuOpen ? <HiX /> : <HiMenuAlt3 />}
+          </div>
+        </div>
+      </div>
     </nav>
   );
 };
-
-// })
-// }
 
 export default Nav;
