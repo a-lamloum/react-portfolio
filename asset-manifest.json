@@ -1,24 +1,25 @@
 {
-  "main.css": "/react-portfolio/static/css/main.fcd03b9c.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.38f20839.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.38f20839.chunk.js.map",
-  "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
-  "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
-  "static/js/2.c7b7432c.chunk.js": "/react-portfolio/static/js/2.c7b7432c.chunk.js",
-  "static/js/2.c7b7432c.chunk.js.map": "/react-portfolio/static/js/2.c7b7432c.chunk.js.map",
-  "index.html": "/react-portfolio/index.html",
-  "precache-manifest.76036849795c80f431cff503b9dbd10e.js": "/react-portfolio/precache-manifest.76036849795c80f431cff503b9dbd10e.js",
-  "service-worker.js": "/react-portfolio/service-worker.js",
-  "static/css/main.fcd03b9c.chunk.css.map": "/react-portfolio/static/css/main.fcd03b9c.chunk.css.map",
-  "static/media/cv2122_old.pdf": "/react-portfolio/static/media/cv2122_old.637f562f.pdf",
-  "static/media/ezlearn.jpg": "/react-portfolio/static/media/ezlearn.08467698.jpg",
-  "static/media/hero-me2.png": "/react-portfolio/static/media/hero-me2.a60607ad.png",
-  "static/media/karamella.jpg": "/react-portfolio/static/media/karamella.08f895be.jpg",
-  "static/media/library.jpg": "/react-portfolio/static/media/library.a9f7aaf8.jpg",
-  "static/media/nft-card.jpg": "/react-portfolio/static/media/nft-card.86d76834.jpg",
-  "static/media/order-summary-card.jpg": "/react-portfolio/static/media/order-summary-card.0278478b.jpg",
-  "static/media/qr-code-card.jpg": "/react-portfolio/static/media/qr-code-card.85147a86.jpg",
-  "static/media/react-portfolio.jpg": "/react-portfolio/static/media/react-portfolio.5c9d16fa.jpg",
-  "static/media/star-rating-card.jpg": "/react-portfolio/static/media/star-rating-card.3bf17bd7.jpg",
-  "static/media/tindog.jpg": "/react-portfolio/static/media/tindog.22783fb8.jpg"
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.43217e2c.css",
+    "main.js": "/react-portfolio/static/js/main.9a03d29b.js",
+    "static/media/ezabawy.png": "/react-portfolio/static/media/ezabawy.139cb7f6d6538dcb264a.png",
+    "static/media/hero-me2.png": "/react-portfolio/static/media/hero-me2.5bb08a6a95ac9b5c9e26.png",
+    "static/media/ezlearn.jpg": "/react-portfolio/static/media/ezlearn.b74395201d795ab54dcf.jpg",
+    "static/media/library.jpg": "/react-portfolio/static/media/library.ae12d16210df60eb9ae7.jpg",
+    "static/media/karamella.jpg": "/react-portfolio/static/media/karamella.34995d06f6bed1483b8c.jpg",
+    "static/media/tindog.jpg": "/react-portfolio/static/media/tindog.da76f0a6f11d590729cc.jpg",
+    "static/media/react-portfolio.jpg": "/react-portfolio/static/media/react-portfolio.a32ec332215d38d21b42.jpg",
+    "static/media/qr-code-card.jpg": "/react-portfolio/static/media/qr-code-card.155817f99a24de8bbc9a.jpg",
+    "static/media/order-summary-card.jpg": "/react-portfolio/static/media/order-summary-card.4bdeb526c87a2f0a2874.jpg",
+    "static/media/nft-card.jpg": "/react-portfolio/static/media/nft-card.52dca26f112dcf39f30d.jpg",
+    "static/media/star-rating-card.jpg": "/react-portfolio/static/media/star-rating-card.083b3d129ab3a809a046.jpg",
+    "static/media/dice.jpg": "/react-portfolio/static/media/dice.e4ab587389b360014485.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.43217e2c.css.map": "/react-portfolio/static/css/main.43217e2c.css.map",
+    "main.9a03d29b.js.map": "/react-portfolio/static/js/main.9a03d29b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43217e2c.css",
+    "static/js/main.9a03d29b.js"
+  ]
 }
