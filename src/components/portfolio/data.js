@@ -10,7 +10,6 @@ import IMG9 from "../../assets/order-summary-card.jpg"
 import IMG10 from "../../assets/star-rating-card.jpg"
 import IMG11 from "../../assets/ezabawy.png"
 
-
 const data = [
     {
         id: 1,
@@ -18,6 +17,7 @@ const data = [
         image: IMG11, 
         github: "https://github.com/a-lamloum/ezabawy",
         demo: "https://ezabawy.com/",
+        category: 'web-app',
         tech: "Bootstrap5 Swiperjs ASP.NET"
     },
     {
@@ -26,6 +26,7 @@ const data = [
         image: IMG8, 
         github: "https://github.com/a-lamloum/react-portfolio/",
         demo: "https://a-lamloum.github.io/react-portfolio/",
+        category: 'web-app',
         tech: "Reactjs OpenWeather-api"
     },
     {
@@ -34,15 +35,16 @@ const data = [
         image: IMG1, 
         github: "#",
         demo: "https://ezlearn.online/",
+        category: 'website',
         tech: "WordPress"
     },
     {
-        
         id: 4,
         title: "EgyptScholars - Library",
         image: IMG2, 
         github: "#",
         demo: "https://library.egyptscholars.org/",
+        category: 'website',
         tech: "WordPress"
     },
     {
@@ -51,6 +53,7 @@ const data = [
         image: IMG5, 
         github: "https://github.com/a-lamloum/Karamella-Portraites",
         demo: "https://a-lamloum.github.io/Karamella-Portraites/",
+        category: 'mini-project',
         tech: "HTML CSS JS"
     },
     {
@@ -59,6 +62,7 @@ const data = [
         image: IMG3, 
         github: "https://github.com/a-lamloum/tindogs",
         demo: "https://a-lamloum.github.io/tindogs/",
+        category: 'mini-project',
         tech: "HTML CSS"
     },
     {
@@ -67,6 +71,7 @@ const data = [
         image: IMG4, 
         github: "https://github.com/a-lamloum/dice_game_js",
         demo: "https://a-lamloum.github.io/dice_game_js/",
+        category: 'game',
         tech: "HTML CSS JS"
     },
     {
@@ -75,6 +80,7 @@ const data = [
         image: IMG6, 
         github: "https://github.com/a-lamloum/nft-preview-card-component-main",
         demo: "https://a-lamloum.github.io/nft-preview-card-component-main/",
+        category: 'frontend-mentor',
         tech: "HTML CSS"
     },
     {
@@ -83,6 +89,7 @@ const data = [
         image: IMG7, 
         github: "https://github.com/a-lamloum/qr-code-component-main",
         demo: "https://a-lamloum.github.io/qr-code-component-main/",
+        category: 'frontend-mentor',
         tech: "HTML CSS"
     },
     {
@@ -91,6 +98,7 @@ const data = [
         image: IMG9, 
         github: "https://github.com/a-lamloum/-Order-Summary-Card",
         demo: "https://a-lamloum.github.io/-Order-Summary-Card/",
+        category: 'frontend-mentor',
         tech: "HTML CSS"
     },
     {
@@ -99,8 +107,9 @@ const data = [
         image: IMG10, 
         github: "https://github.com/a-lamloum/star-rating-sys",
         demo: "https://a-lamloum.github.io/star-rating-sys/",
+        category: 'mini-project',
         tech: "HTML CSS JS"
     },
-  ]
+]
 
-export default data
+export default data;
