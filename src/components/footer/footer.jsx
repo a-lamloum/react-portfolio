@@ -37,8 +37,8 @@ const Footer = () => {
       <div className="footer__container">
         <div className="footer__content">
           <div className="footer__logo">
-            <h3>Ahmad Omar</h3>
-            <small>Full Stack Developer</small>
+            <h3>Ahmad Lamloum</h3>
+            <small>Web Developer</small>
           </div>
 
           <nav className="footer__nav">
